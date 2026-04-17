@@ -8,7 +8,7 @@
     "start": "npm run start --prefix backend"
   },
   "engines": {
-    "node": "22.x"
+    "node": ">=22"
   },
   "keywords": [],
   "author": "",
