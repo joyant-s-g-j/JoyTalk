@@ -11,15 +11,19 @@ import { app, server } from "./lib/socket.js";
 dotenv.config();
 
 const PORT = process.env.PORT || 5001;
-const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
+const CLIENT_URLS = (process.env.CLIENT_URL || "http://localhost:5173")
+    .split(",")
+    .map((url) => url.trim())
+    .filter(Boolean);
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-    origin: CLIENT_URL,
-    credentials: true,
-}));
+        origin: CLIENT_URLS,
+        credentials: true,
+    })
+);
 
 app.use("/api/auth", authRoutes);
 app.use("/api/message", messageRoutes);
