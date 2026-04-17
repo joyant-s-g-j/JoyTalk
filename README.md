@@ -21,7 +21,7 @@ Check out the live version here: **[JoyTalk Live](https://joytalk.onrender.com/)
 - **Authentication**: JWT  
 
 ## 🤝 Contributing  
-Feel free to submit pull requests or open issues to improve NupTalk!   
+Feel free to submit pull requests or open issues to improve JoyTalk!   
 
 ---
 
