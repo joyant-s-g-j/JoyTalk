@@ -1,9 +1,9 @@
-# NupTalk 🗨️  
+# JoyTalk 🗨️  
 
-🚀 **NupTalk** is a real-time chat application built using **MERN** (MongoDB, Express.js, React, Node.js), **Socket.io**, **Tailwind CSS**, and **Daisy UI**. It provides seamless and instant messaging with modern UI and state management.  
+🚀 **JoyTalk** is a real-time chat application built using **MERN** (MongoDB, Express.js, React, Node.js), **Socket.io**, **Tailwind CSS**, and **Daisy UI**. It provides seamless and instant messaging with modern UI and state management.  
 
 ### 🔗 Live Demo  
-Check out the live version here: **[NupTalk Live](https://nuptalk.onrender.com/login)**  
+Check out the live version here: **[NupTalk Live](https://nuptalk.onrender.com/)**  
 
 ## ✨ Features  
 🎃 **Authentication & Authorization** – Secure login and signup using JWT.  
